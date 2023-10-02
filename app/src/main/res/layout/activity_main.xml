@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:gravity="center"
+    android:orientation="vertical"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:background="@color/pink">
+
+    <TextView
+        android:id="@+id/questionTV"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Casper B thuggin is a god teir rapper."
+        android:textColor="@color/lightBlue"
+        android:textSize="24sp"
+        android:textStyle="bold" />
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <Button
+            android:id="@+id/trueBTN"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="True"
+            android:textSize="20sp"
+            android:backgroundTint="@color/lightBlue" />
+
+        <Button
+            android:id="@+id/falseBTN"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="False"
+            android:textSize="20sp"
+            android:backgroundTint="@color/lightBlue" />
+
+
+
+
+
+
+    </LinearLayout>
+
+    <Button
+        android:id="@+id/scoreBTN"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="show score"
+        android:textSize="20sp"
+        android:backgroundTint="@color/lightBlue" />
+
+
+
+
+
+
+
+
+</LinearLayout>
+
+

@@ -1,3 +1,40 @@
 <resources>
     <string name="app_name">MusicQuizAppTC</string>
+
+    <string name="q1text">Casper B thuggin is a god teir rapper</string>
+    <string name="hint1">He refuses to be signed</string>
+
+    <string name="q2text">Juice wrld died at 23 years old</string>
+    <string name="hint2">He was born in 1998</string>
+
+    <string name="q3text">Drake is under 5\'9ft</string>
+    <string name="hint3">He is above average height</string>
+
+    <string name="q4text">Ice spice is from NY</string>
+    <string name="hint4">Known for drill rap</string>
+
+    <string name="q5text">Pop smoke is from NY</string>
+    <string name="hint5">Known for drill rap</string>
+
+    <string name="q6text">Kanye west has 45 music awards</string>
+    <string name="hint6">Has less than Taylor Swift</string>
+
+    <string name="q7text">Lil Wayne started rapping at 10 years old</string>
+    <string name="hint7">He began rapping in 1995</string>
+
+    <string name="q8text">Young dolph was born in Chicago</string>
+    <string name="hint8">He claims memphis</string>
+
+    <string name="q9text">Eminem was born in Missouri</string>
+    <string name="hint9">Eminem moved around as a kid</string>
+
+    <string name="q10text">Snoop dogg has never done drugs</string>
+    <string name="hint10">Snoop dogg is known for parties</string>
+
+    <string name="trueBTN">True</string>
+    <string name="falseBTN">FALSE</string>
+    <string name="nextBTN">Next Question</string>
+
+    <string name="correctMSG">Correct</string>
+    <string name="wrongMSG">Wrong</string>
 </resources>

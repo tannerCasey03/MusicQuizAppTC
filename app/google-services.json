@@ -1,0 +1,30 @@
+{
+  "project_info": {
+    "project_number": "682783386301",
+    "firebase_url": "https://highscoretc-420d5-default-rtdb.firebaseio.com",
+    "project_id": "highscoretc-420d5",
+    "storage_bucket": "highscoretc-420d5.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:682783386301:android:593c7d568466fc0097a5d4",
+        "android_client_info": {
+          "package_name": "org.pattersonclippers.musicquizapptc"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyB4YpgkPW82h7y8Uu4usRzbLCinSJMc_rA"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

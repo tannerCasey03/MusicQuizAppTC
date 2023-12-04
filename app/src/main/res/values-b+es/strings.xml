@@ -1,0 +1,41 @@
+<resources>
+    <string name="app_name">MusicQuizAppTC</string>
+
+    <string name="q1text">Casper B Thuggin es un dios su rapero</string>
+    <string name="hint1"> Se niega a firmar </string>
+
+    <string name="q2text">Juice Wrld murió a los 23 años</string>
+    <string name="hint2"> Nació en 1998. </string>
+
+    <string name="q3text">Drake mide menos de 5\'9 pies</string>
+    <string name="hint3"> Él está por encima de la altura promedio. </string>
+
+    <string name="q4text">La especia para hielo es de Nueva York.</string>
+    <string name="hint4"> Conocida por drill rap </string>
+
+    <string name="q5text">El humo del pop es de Nueva York.</string>
+    <string name="hint5"> Conocido por drill rap </string>
+
+    <string name="q6text">Kanye west tiene 17 premios musicales</string>
+    <string name="hint6"> Tiene menos que Taylor Swift </string>
+
+    <string name="q7text">Lil Wayne empezó a rapear a los 10 años.</string>
+    <string name="hint7"> Comenzó a rapear en 1995 </string>
+
+    <string name="q8text">El joven delfín nació en Chicago.</string>
+    <string name="hint8"> El afirma memphis </string>
+
+    <string name="q9text">Eminem nació en Misuri</string>
+    <string name="hint9"> Eminem se movía cuando era niño </string>
+
+    <string name="q10text">Snoop Dogg nunca ha consumido drogas.</string>
+    <string name="hint10"> Snoop Dogg es conocido por sus fiestas. </string>
+
+    <string name="trueBTN">Verdadero</string>
+    <string name="falseBTN">FALSO</string>
+    <string name="nextBTN">Próxima pregunta</string>
+
+    <string name="correctMSG">Correcto</string>
+    <string name="wrongMSG">Equivocado</string>
+
+</resources>

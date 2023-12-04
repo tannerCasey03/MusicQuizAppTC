@@ -1,10 +1,10 @@
 <?xml version="1.0" encoding="utf-8"?>
-<LinearLayout
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
+    android:background="@color/pink"
     android:gravity="center"
-    android:orientation="vertical"
-    xmlns:android="http://schemas.android.com/apk/res/android" >
+    android:orientation="vertical">
 
     <TextView
         android:id="@+id/scoreTV"
@@ -12,6 +12,28 @@
         android:layout_height="64dp"
         android:text="0"
         android:textSize="34sp" />
+
+    <EditText
+        android:id="@+id/nameET"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:hint="Type Name Here" />
+
+    <Button
+        android:id="@+id/sendBTN"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:backgroundTint="@color/lightBlue"
+        android:text="Click Me"
+        android:textColor="@color/black" />
+
+    <Button
+        android:id="@+id/showhighscoreBTN"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:backgroundTint="@color/lightBlue"
+        android:text="Show High Score"
+        android:textColor="@color/black" />
 
 
 </LinearLayout>

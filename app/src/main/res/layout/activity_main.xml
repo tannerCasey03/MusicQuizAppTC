@@ -11,7 +11,7 @@
         android:id="@+id/questionTV"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="Casper B thuggin is a god teir rapper."
+        android:text="@string/q1text"
         android:textColor="@color/lightBlue"
         android:textSize="24sp"
         android:textStyle="bold" />
@@ -25,7 +25,7 @@
             android:id="@+id/trueBTN"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:text="True"
+            android:text="@string/trueBTN"
             android:textSize="20sp"
             android:backgroundTint="@color/lightBlue" />
 
@@ -33,7 +33,7 @@
             android:id="@+id/falseBTN"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:text="False"
+            android:text="@string/falseBTN"
             android:textSize="20sp"
             android:backgroundTint="@color/lightBlue" />
 
@@ -45,16 +45,20 @@
     </LinearLayout>
 
     <Button
-        android:id="@+id/scoreBTN"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="show score"
+        android:id="@+id/nextBTN"
+        android:text="Next question"
         android:textSize="20sp"
-        android:backgroundTint="@color/lightBlue" />
+        android:backgroundTint="@color/lightBlue"/>
 
-
-
-
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/hintBTN"
+        android:text="Need help?"
+        android:textSize="20sp"
+        android:backgroundTint="@color/lightBlue"/>
 
 
 

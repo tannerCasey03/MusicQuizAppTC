@@ -28,14 +28,10 @@ public class Question
     public String getHint() { return hint; }
     public void setHint(String newHint) { hint = newHint; }
 
-
     @Override
     public String toString()
     {
         return "question text: " + qText + "\n" + "correct answer: " + correctAnswer;
     }
-
-
-
 
 }

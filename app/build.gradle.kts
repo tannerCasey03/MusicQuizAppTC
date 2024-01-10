@@ -5,14 +5,16 @@ plugins {
 
 android {
     namespace = "org.pattersonclippers.musicquizapptc"
-    compileSdk = 33
+    compileSdk = 34
 
     defaultConfig {
         applicationId = "org.pattersonclippers.musicquizapptc"
         minSdk = 19
-        targetSdk = 33
-        versionCode = 1
+        targetSdk = 34
+        versionCode = 2
         versionName = "1.0"
+
+        multiDexEnabled = true
 
         testInstrumentationRunner = "androidx.test.runner.AndroidJUnitRunner"
     }

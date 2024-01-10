@@ -52,8 +52,17 @@ public class ScoreActivity extends AppCompatActivity
                 name = nameET.getText().toString();
                 newHS = new HighScore(score, name);
 
-                myRef.setValue(newHS);
+//                myRef.setValue(newHS);
+                String key = myRef.push().getKey();
+                myRef.child(key).setValue(newHS);
+            }
+        });
 
+        showhighscoreBTN.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                Intent myIntent = new Intent(ScoreActivity.this, HighScoreActivity.class);
+                startActivity(myIntent);
             }
         });
 

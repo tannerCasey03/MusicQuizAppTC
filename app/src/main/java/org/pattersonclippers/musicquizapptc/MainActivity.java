@@ -48,7 +48,6 @@ public class MainActivity extends AppCompatActivity
         currentIndex = 0;
         currentQ = questions[currentIndex];
 
-
         trueBTN.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view)
@@ -101,10 +100,8 @@ public class MainActivity extends AppCompatActivity
                     myIntent.putExtra("score", score);
                     startActivity(myIntent);
                }
-
             }
         });
-
 //        Intent intent = new Intent(Intent.ACTION_SENDTO);
 //        intent.setData(Uri.parse("mailto:")); // Only email apps handle this.
 //        intent.putExtra(Intent.EXTRA_SUBJECT, "this is the score");
@@ -112,7 +109,6 @@ public class MainActivity extends AppCompatActivity
 //        if (intent.resolveActivity(getPackageManager()) != null) {
 //            startActivity(intent);
 //        }
-
         hindBTN.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
@@ -120,10 +116,8 @@ public class MainActivity extends AppCompatActivity
 
                 String hintFQ = currentQ.getHint();
                 myIntent.putExtra("hint", hintFQ);
-
                 startActivity(myIntent);
             }
         });
-
     }
 }
